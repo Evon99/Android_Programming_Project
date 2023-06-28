@@ -46,4 +46,4 @@
 
 <br></br>
 **주변 동물병원 위치 보기**<br></br>
-<img src="View_hospital.jpg" height="400">
+<img src="images/View_hospital.jpg" height="400">
