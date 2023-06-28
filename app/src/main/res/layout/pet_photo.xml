@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:background="@color/gray"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="371dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="64dp"
+        android:text="냥이와 비슷한 캐릭터로 골라주세요!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/pet_horizon"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/pet_horizon"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toBottomOf="@+id/photo_finish"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cat1"
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat1"
+                android:background="@drawable/cat1" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat2"
+                android:background="@drawable/cat2" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat3"
+                android:background="@drawable/cat3" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat4"
+                android:background="@drawable/cat4" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat5"
+                android:background="@drawable/cat5" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat6"
+                android:background="@drawable/cat6" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat7"
+                android:background="@drawable/cat7" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat8"
+                android:background="@drawable/cat8" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat9"
+                android:background="@drawable/cat9" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat10"
+                android:background="@drawable/cat10" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat11"
+                android:background="@drawable/cat11" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat12"
+                android:background="@drawable/cat12" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat13"
+                android:background="@drawable/cat13" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat14"
+                android:background="@drawable/cat14" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat15"
+                android:background="@drawable/cat15" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat16"
+                android:background="@drawable/cat16" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat17"
+                android:background="@drawable/cat17" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat18"
+                android:background="@drawable/cat18" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat19"
+                android:background="@drawable/cat19" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat20"
+                android:background="@drawable/cat20" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat21"
+                android:background="@drawable/cat21" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat22"
+                android:background="@drawable/cat22" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat23"
+                android:background="@drawable/cat23" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat24"
+                android:background="@drawable/cat24" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat25"
+                android:background="@drawable/cat25" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat26"
+                android:background="@drawable/cat26" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat27"
+                android:background="@drawable/cat27" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:onClick="onClickCat28"
+                android:background="@drawable/cat28" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.widget.Button
+        android:id="@+id/photo_finish"
+        android:layout_width="136dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="84dp"
+        android:background="#81F7F3"
+        android:text="완료"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
